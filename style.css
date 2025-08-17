@@ -30,3 +30,47 @@ header {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 160px;
+    gap: 36px;
+}
+
+.hero .left {
+    flex: 1;
+}
+
+.hero .heading {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0px;
+    padding: 6px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.hero .placeholder {
+    flex: 1;
+    display: flex;
+    background-color: darkgray;
+    color: #E5E7EB;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+}
