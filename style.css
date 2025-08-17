@@ -74,3 +74,43 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 108px;
+    gap: 36px;
+}
+
+.information .list {
+    display: flex;
+    gap: 48px;
+}
+
+.information .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.information .text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information .placeholder {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.information .subtext {
+    text-align: center;
+    width: 150px;
+}
