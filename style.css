@@ -142,7 +142,7 @@ header {
 }
 
 .call-to-action {
-    padding: 64px 10%;
+    padding: 72px 10%;
 }
 
 .call-to-action .card {
@@ -172,4 +172,16 @@ header {
     border-radius: 8px;
     font-weight: bold;
     height: 50%;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 0;
+}
+
+footer .copyright {
+    color: #F9FAF8;
 }
