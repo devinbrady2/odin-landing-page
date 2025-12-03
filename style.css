@@ -126,7 +126,7 @@ header {
 
 .quote .text {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
 }
@@ -134,8 +134,41 @@ header {
 .quote .author {
     width: 100%;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 900;
     text-align: right;
     color: #1F2937;
     padding-right: 100px;
+    padding-top: 16px;
+}
+
+.call-to-action {
+    padding: 64px 10%;
+}
+
+.call-to-action .card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: white;
+    padding: 48px 10%;
+    border-radius: 8px;
+}
+
+.call-to-action .header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-to-action .subtext {
+    font-weight: 300;
+}
+
+.call-to-action button {
+    color: white;
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 36px;
 }
