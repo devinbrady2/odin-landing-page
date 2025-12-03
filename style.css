@@ -121,5 +121,21 @@ header {
     align-items: center;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 100px;
+    padding: 100px 20%;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .author {
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    color: #1F2937;
+    padding-right: 100px;
 }
